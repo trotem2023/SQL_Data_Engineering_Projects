@@ -6,7 +6,7 @@ and only in USA
 
 select * from company_dim
 limit 10;
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT 
        cd.name AS company_name,
        jpf.job_country as country,
