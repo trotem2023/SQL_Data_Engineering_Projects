@@ -10,7 +10,7 @@ LEFT JOIN company_dim as cd
     on jpf.company_id = cd.company_id;
 ---
 select * from skills_job_dim
-limit 15;
+limit 20;
 
 SELECT jpf.job_id,
        jpf.job_title_short, 
